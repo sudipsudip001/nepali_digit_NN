@@ -1,2 +1,18 @@
 # nepali_honi
 this-> Neural Network can learn and classify 'Nepali' handwritten digits (क-ज्ञ 0-९).
+
+### This repository was only possible due to the hardwork of [Prasanna1991](https://github.com/Prasanna1991/DHCD_Dataset) to whom I'm really thankful from the bottom of my heart.
+
+To talk about the Neural Network architecture, it's a pretty simple one in terms of implementation. There're `46` classes(`36` Nepali alphabets and `10` digits) resulting in 46 neuron output layer. The input is of pixel size `32*32` resulting in `1024` input neurons. I've just arbitrarily chosen `46*1` neurons hidden layer for now. Talking about the model's accuracy, though it achieves a considerable `92%` accuracy for training set and `86%` for testing set, it's not enough considering the state of the art. Although we can consider it a very good start given that it doesn't contain anything fancy. Just an input, output and a hidden layer. Still, a lot needs to be done in order to achieve the benchmarks that has previously been achieved in this dataset. I've played around with the `learning rate` and `iterations`. '1' seems to be the better choice for learning rate and accuracy pretty much goes up with the increase in iterations. 'Softmax' has been used in the output layer for multi-class classification with 'ReLU' in the hidden layer so I don't think there's much to tinker with that. Adding 1-2 more hidden layers might work which I shall try in the near future. Do let me know if you did it for me.
+
+To run the program and see it for yourself: 
+1. Clone the github repository:
+`git clone https://github.com/sudipsudip001/nepali_honi.git`
+2. Go into the 'nepali_honi' folder using the command:
+`cd nepali_honi`
+3. Open terminal at this folder and paste the following command:
+`pip install requirements.txt`
+4. Start the notebook and explore!
+`jupyter-notebook`
+
+Feel free to leave out your thoughts and suggestions or issues if any!
