@@ -1,4 +1,4 @@
-# nepali_honi
+# nepali_digit_NN
 this-> Neural Network can learn and classify 'Nepali' handwritten digits (क-ज्ञ 0-९).
 
 ### This repository was only possible due to the hardwork of [Prasanna1991](https://github.com/Prasanna1991/DHCD_Dataset) to whom I'm really thankful from the bottom of my heart.
