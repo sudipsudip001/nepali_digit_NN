@@ -8,7 +8,7 @@ To talk about the Neural Network architecture, it's a pretty simple one in terms
 To run the program:
 1. Create a folder and open a terminal as administrator in it.
 2. Clone the github repository:
-`git clone https://github.com/sudipsudip001/nepali_honi.git`
+`git clone https://github.com/sudipsudip001/nepali_digit_NN.git`
 3. Go into the 'nepali_honi' folder using the command:
 `cd nepali_honi`
 4. Open terminal at this folder and paste the following command:
