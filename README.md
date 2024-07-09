@@ -15,3 +15,17 @@ To run the program:
 `pip install -r requirements.txt`
 5. Start the notebook and explore!
 `jupyter-notebook`
+
+To run the flask application:
+1. Follow till step 3.
+2. Create a virtual environment for preventing any conflicts: <br>
+   `python -m venv .venv` <br>
+   `source .venv/bin/activate`
+3. Install the dependencies:
+   `pip install -r requirements.txt`
+4. Run the flask app:
+   `flask --app app.py run`
+5. The server will run on `(http://127.0.0.1:5000)`
+6. Insert the image and check the prediction.
+
+(Note 9th July, 2024: The predictions are poor and I still have a lot to work for proper preprocessing in order to improve the accuracy!)
