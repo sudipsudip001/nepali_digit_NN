@@ -1,5 +1,5 @@
 # nepali_digit_NN
-this-> Neural Network can learn and classify 'Nepali' handwritten digits (क-ज्ञ 0-९) made using numpy only. It's a scratch implementation of Neural Network and gives an intuition of how things really work.
+Neural Network to learn and classify 'Nepali' handwritten digits (क-ज्ञ 0-९) made with NumPy. It's a scratch implementation of Neural Network and gives an intuition of how things really work.
 
 ### I'd like to thank [Prasanna1991](https://github.com/Prasanna1991/DHCD_Dataset) for the dataset.
 
